@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera pagina web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="container-nav">
+        <nav class="navbar">
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+
+      <main>
+        <div class="container">
+            <h1>Bienvenidos a mi primer Website !</h1> 
+            <section>
+                <h2>Primer titulo en h2</h2>
+                <p>Soy Carlos Laguna, ¡y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo wen para crear sitios web visualmente
+                    atrapantes y funcionales.
+                </p> 
+            </section>
+            <section>
+                <h2>Segundo titulo en h2</h2>
+                <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+                    Estos lenguajes me ayudarán a crear una base sólida en el desarrolo web front-end
+                </p>
+            </section>
+        </div>
+        <div class="container-video">
+        <video src="VIDEO/Konosuba_Trailer.mp4" width="560" height="315" controls></video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XZiakX-wvnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </main>
+  
+      <footer>
+        <p>Informacion sobre el desarrollador o la compañia</p>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
